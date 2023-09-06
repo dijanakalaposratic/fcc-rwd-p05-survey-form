@@ -16,17 +16,31 @@
 
         <form action="" id="survey-form">
 
-            <label for="name" id="name-label"> Enter your full name:
-                <input type="text" id="name" required placeholder="Please enter your full name here">
-            </label>
+            <fieldset>
 
-            <label for="email" id="email-label"> Enter your email:
-                <input type="email" id="email" required placeholder="Please enter your email here">
-            </label>
+                <label for="name" id="name-label"> Enter your full name:
+                    <input type="text" id="name" required placeholder="Please enter your full name here">
+                </label>
 
-            <label for="number" id="number-label"> Enter your phone number:
-                <input type="number" id="number" required placeholder="PLease enter your phone number here">
-            </label>
+                <label for="email" id="email-label"> Enter your email:
+                    <input type="email" id="email" required placeholder="Please enter your email here">
+                </label>
+
+                <label for="number" id="number-label"> Enter your phone number:
+                    <input type="number" id="number" required placeholder="PLease enter your phone number here">
+                </label>
+
+                <p>Please select your age:</p>
+                <select name="dropdown" id="dropdown">
+                    <option value="">select one</option>
+                    <option value="1">16-21</option>
+                    <option value="2">22-35</option>
+                    <option value="3">36-55</option>
+                    <option value="4">56-65</option>
+                    <option value="5">66+</option>
+                </select>
+
+            </fieldset>
 
         </form>
 
