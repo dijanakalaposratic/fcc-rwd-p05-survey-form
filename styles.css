@@ -1,3 +1,14 @@
+body {
+    font-family: Consola Mono Typeface;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url(https://images.unsplash.com/photo-1595895107207-44258d44837c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3024&q=80);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1, #description {
+    text-align: center;
+}
+
 label {
     display: block;
 }
