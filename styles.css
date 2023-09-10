@@ -17,11 +17,14 @@ h1 {
 }
 
 #description {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 form {
-
+    font-size: 25px;
+    margin: 0 auto;
+    width: 90vw;
+    padding-bottom: 2em;
 }
 
 fieldset {
@@ -31,7 +34,11 @@ fieldset {
     border-top: none;
     border-left: none;
     border-right: none;
+}
 
+.one{
+    color: #486968;
+    padding-bottom: 20px;
 }
 
 fieldset:last-of-type {
