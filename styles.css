@@ -50,6 +50,13 @@ input, textarea, select {
     margin-right: 0;
 }
 
+.age {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 fieldset:last-of-type {
     border-bottom: none;
 }
