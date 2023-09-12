@@ -46,19 +46,19 @@
 
             <fieldset class="two">
                 
-                <p>How did/do you learn coding?</p>
+                <label for="education-type">How did/do you learn coding?
+                    <br>
+                    <input type="radio" id="formal-education" name="education-type" value="formal education"> formal education
+                    <input type="radio" id="self-taught" name="education-type" value="self-taught"> self-taught
+                </label>
 
-                <input type="radio" id="formal-education" name="education-type" value="formal education"> formal education
-                <input type="radio" id="self-taught" name="education-type" value="self-taught"> self-taught
 
-                <section>
-                    <p>For formally educated, enter your education level here:</p>
-
+                <label for="type-of-degree">For formally educated, enter your education level here:
                     <input type="text" name="type-of-degree" value="type-of-degree" id="type-of-degree" placeholder="type of degree">
-                </section>
+                </label>
                 
-                <section>
-                    <p>For all, what is/are the most useful source(s) you use/have used?</p>
+
+                <label>For all, what is/are the most useful source(s) you use/have used?
                     <input type="checkbox" name="freeCodeCamp" id="freeCodeCamp" value="freeCodeCamp"> freeCodeCamp
                     <input type="checkbox" name="the-odin-project" id="the-odin-project" value="the-odin-project"> The Odin Project
                     <input type="checkbox" name="W3Schools" id="W3Schools" value="W3Schools"> W3Schools
@@ -67,12 +67,12 @@
                         <input type="text" name="learning-source" id="learning-source" value="learning-source" placeholder="">
                         <input type="text" name="learning-source" id="learning-source" value="learning-source" placeholder="">
                         <input type="text" name="learning-source" id="learning-source" value="learning-source" placeholder="">
-                </section>
+                </label>
+                    
+            </fieldset>
 
-            </fieldset class="three">
 
-
-            <fieldset>
+            <fieldset class="three">
                 <label for="advice" id="advice-label">What is your advice for someone who just started learning?
                     <textarea id="advice" name="advice" cols="30" rows="3" placeholder="Give us some advice..."></textarea>
                 </label>

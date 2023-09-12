@@ -55,6 +55,17 @@ input, textarea, select {
     padding-bottom: 20px;
 }
 
+input[name="education-type"] {
+    display: inline-block;
+    font-size: 20px;
+    width: unset;
+    margin-right: 0.5em;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
 .age {
     margin-top: 0;
     margin-bottom: 0px;
