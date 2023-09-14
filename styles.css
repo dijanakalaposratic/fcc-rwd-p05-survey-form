@@ -57,12 +57,13 @@ input, textarea, select {
 
 input[name="education-type"] {
     display: inline-block;
+    gap: 20px;
     font-size: 20px;
     width: unset;
-    margin-right: 0.5em;
-    margin-left: 0;
-    margin-top: 10px;
-    margin-bottom: 0;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
     vertical-align: middle;
 }
 
