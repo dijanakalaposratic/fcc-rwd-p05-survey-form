@@ -77,11 +77,12 @@ input[type="radio"] {
 
 input[type="checkbox"] {
     display: inline-block;
+    font-size: 20PX;
     width: unset;
     margin-right: 1em;
     margin-left: 1em;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 5Px;
+    margin-bottom: 5Px;
     vertical-align: -webkit-baseline-middle;
     position: relative;
 }
