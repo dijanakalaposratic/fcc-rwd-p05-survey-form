@@ -55,23 +55,35 @@ input, textarea, select {
     padding-bottom: 20px;
 }
 
-input[name="education-type"] {
-    display: inline-block;
-    gap: 20px;
-    font-size: 20px;
-    width: unset;
-    margin-right: 1em;
-    margin-left: 1em;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    vertical-align: middle;
-}
-
 .age {
     margin-top: 0;
     margin-bottom: 0px;
     margin-left: 0;
     margin-right: 0;
+}
+
+
+input[type="radio"] {
+    display: inline-block;
+    font-size: 20px;
+    width: unset;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    vertical-align: -webkit-baseline-middle;
+    position: relative;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: unset;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    vertical-align: -webkit-baseline-middle;
+    position: relative;
 }
 
 fieldset:last-of-type {
