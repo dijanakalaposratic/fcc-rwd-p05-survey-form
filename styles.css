@@ -83,8 +83,12 @@ input[type="checkbox"] {
     margin-left: 1em;
     margin-top: 5Px;
     margin-bottom: 5Px;
-    vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
     position: relative;
+}
+
+.checkboxes {
+    padding-top: 15px;
 }
 
 fieldset:last-of-type {
