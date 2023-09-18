@@ -48,6 +48,11 @@ input, textarea, select {
     margin-bottom: 30px;
     margin-left: 0;
     margin-right: 0;
+    font-size: 17px;
+    background-color: #ffffff;
+    border: 1px solid #8C6848;
+    border-radius: 10px;
+    color: #99795D;
 }
 
 .two {
@@ -88,7 +93,7 @@ input[type="checkbox"] {
 }
 
 #learning-source {
-    margin-left: 15em;
+    margin-left: 11.5em;
     margin-bottom: 5px;
     width: 40%;
 }
@@ -110,10 +115,6 @@ input[type="checkbox"] {
 
 textarea {
     margin-top: 20px;
-    font-size: 17px;
-    background-color: #ffffff;
-    border: 1px solid #8C6848;
-    color: #99795D;
 }
 
 label {
