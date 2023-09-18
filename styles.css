@@ -41,6 +41,10 @@ fieldset {
     padding-bottom: 20px;
 }
 
+label {
+    display: block;
+}
+
 input, textarea, select {
     width: 100%;
     min-height: 2em;
@@ -117,6 +121,13 @@ textarea {
     margin-top: 20px;
 }
 
-label {
+input[type="submit"] {
+    margin: 1em auto;
     display: block;
+    width: 15%;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #FFD8B5;
+    border-color: #99795D;
+    color: #594736;
 }
