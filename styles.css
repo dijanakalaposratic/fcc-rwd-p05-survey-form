@@ -59,6 +59,21 @@ input, textarea, select {
     color: #99795D;
 }
 
+input[type="text"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type="email"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type="number"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .two {
     color: #8C6848;
     padding-bottom: 20px;
