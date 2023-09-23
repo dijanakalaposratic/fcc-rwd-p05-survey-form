@@ -25,9 +25,10 @@ form {
     font-size: 25px;
     margin: 0 auto;
     width: 90vw;
-    padding-bottom: 2em;
-    border: solid #69523B 2px;
+    padding: 2em;
 }
+
+
 
 fieldset {
     margin: 0 300px;
