@@ -28,7 +28,14 @@ form {
     padding: 2em;
 }
 
-
+.border-box {
+    border: solid #69523B 3px;
+    width: 1000px;
+    height: 1800px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
 
 fieldset {
     margin: 0 300px;
