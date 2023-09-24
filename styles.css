@@ -9,16 +9,15 @@ body {
 
 h1, #description {
     text-align: center;
-    color: #A66844; 
-}
-
-h1 {
+    color: #519E80;
     font-size: 40px;
 }
 
 #description {
     font-size: 30px;
     margin-bottom: 0;
+    text-align: center;
+    color: #A66844;
 }
 
 form {
@@ -29,16 +28,15 @@ form {
 }
 
 .border-box {
-    border: solid #69523B 3px;
+    border: solid #519E80 3px;
     width: 1000px;
-    height: 1800px;
+    height: 1700px;
     border-radius: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: auto;
 }
 
 fieldset {
-    margin: 0 300px;
+    margin: 0 70px;
     padding: 2em 1rem;
     border-bottom: 3px solid #bf9267;
     border-top: none;
