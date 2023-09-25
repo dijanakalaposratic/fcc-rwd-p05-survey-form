@@ -29,11 +29,11 @@
                     </label>
 
                     <label for="number" id="number-label"> Enter your phone number:
-                        <input type="number" id="number" required placeholder="Please enter your phone number here">
+                        <input type="number" id="number" min="16" max="100" required placeholder="Please enter your phone number here">
                     </label>
 
                     <label class="age"> Please select your age:
-                        <select name="dropdown-age" id="dropdown-age">
+                        <select name="dropdown" id="dropdown">
                             <option value="">select one</option>
                             <option value="1">16-21</option>
                             <option value="2">22-35</option>
@@ -78,7 +78,7 @@
                         <br>
                         <input type="checkbox" name="js-info" id="js-info" value="js-info"> JavaScript.info
                         <br>
-                        <input type="checkbox"> Other(s):  
+                        <input type="checkbox" name="other" id="other" value="other"> Other(s):  
                             <input class="first" type="text" id="learning-source" placeholder="Enter here">
                             <input type="text" id="learning-source" placeholder="Enter here">
                             <input type="text" id="learning-source" placeholder="Enter here">
@@ -93,7 +93,7 @@
                     </label>
                 </fieldset>
 
-                <input type="submit" value="Submit" id="submit-button" name="submit-button">
+                <input type="submit" value="Submit" id="submit" name="submit">
 
             </form>
         
