@@ -1,104 +1,100 @@
 <!DOCTYPE html>
 
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Survey Form</title>
+	</head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>Survey Form</title>
-    </head>
+	<body>
+		<form action="" id="survey-form">
+			<h1 id="title">Survey Form</h1>
 
-    <body>
-        <h1 id="title">Survey Form</h1>
+			<p id="description">Please fill out this form with the required information</p>
+			<fieldset class="one">
+				<label for="name" id="name-label"> Enter your full name: </label>
+				<input type="text" id="name" class="one--input" required placeholder="Please enter your full name here" />
 
-        <p id="description">Please fill out this form with the required information</p>
+				<label for="email" id="email-label"> Enter your email: </label>
+				<input type="email" id="email" class="one--input" required placeholder="Please enter your email here" />
 
-            <form action="" id="survey-form">
+				<label for="number" id="number-label"> Enter your phone number: </label>
+				<input type="number" id="number" min="16" max="100" class="one--input" required placeholder="Please enter your phone number here" />
 
-            <div class="border-box">
+				<label class="age">
+					Please select your age:
+					<select name="dropdown" id="dropdown">
+						<option value="">select one</option>
+						<option value="1">16-21</option>
+						<option value="2">22-35</option>
+						<option value="3">36-55</option>
+						<option value="4">56-65</option>
+						<option value="5">66+</option>
+					</select>
+				</label>
 
-                <fieldset class="one">
+				<label class="gender">
+					Please select your gender:
+					<select name="dropdown-gender" id="dropdown-gender">
+						<option value="">select one</option>
+						<option value="1">male</option>
+						<option value="2">female</option>
+					</select>
+				</label>
+			</fieldset>
 
-                    <label for="name" id="name-label"> Enter your full name:
-                        <input type="text" id="name" required placeholder="Please enter your full name here">
-                    </label>
+			<fieldset class="two">
+				<p>How did/do you learn coding?</p>
+				<label class="inline" for="formal-education">
+					<input type="radio" id="formal-education" name="education-type" value="formal education" />
+					formal education
+				</label>
+				<label class="inline" for="self-taught">
+					<input type="radio" id="self-taught" name="education-type" value="self-taught" />
+					self-taught
+				</label>
+			</fieldset>
 
-                    <label for="email" id="email-label"> Enter your email:
-                        <input type="email" id="email" required placeholder="Please enter your email here">
-                    </label>
+			<label for="type-of-degree"
+				>For formally educated, enter your education level here:
+				<input type="text" id="type-of-degree" placeholder="Please insert the type of your degree here." />
+			</label>
 
-                    <label for="number" id="number-label"> Enter your phone number:
-                        <input type="number" id="number" min="16" max="100" required placeholder="Please enter your phone number here">
-                    </label>
+			<fieldset class="three">
+				<label
+					>For all, what is/are the most useful source(s) you use/have used?
+					<br />
+					<input type="checkbox" name="freeCodeCamp" id="freeCodeCamp" value="freeCodeCamp" /> freeCodeCamp
+					<br />
+					<input type="checkbox" name="the-odin-project" id="the-odin-project" value="the-odin-project" /> The Odin Project
+					<br />
+					<input type="checkbox" name="W3Schools" id="W3Schools" value="W3Schools" /> W3Schools
+					<br />
+					<input type="checkbox" name="js-info" id="js-info" value="js-info" /> JavaScript.info
+					<br />
+					<input type="checkbox" name="other" id="other" value="other" /> Other(s):
+					<input class="first" type="text" id="learning-source" placeholder="Enter here" />
+					<input type="text" id="learning-source" placeholder="Enter here" />
+					<input type="text" id="learning-source" placeholder="Enter here" />
+				</label>
+			</fieldset>
 
-                    <label class="age"> Please select your age:
-                        <select name="dropdown" id="dropdown">
-                            <option value="">select one</option>
-                            <option value="1">16-21</option>
-                            <option value="2">22-35</option>
-                            <option value="3">36-55</option>
-                            <option value="4">56-65</option>
-                            <option value="5">66+</option>
-                        </select>
-                    </label>
+			<fieldset class="four">
+				<label for="advice" id="advice-label"
+					>What is your advice for someone who just started learning?
+					<textarea id="advice" name="advice" cols="30" rows="10" placeholder="Give us some advice..."></textarea>
+				</label>
+			</fieldset>
 
-                    <label class="gender"> Please select your gender:
-                        <select name="dropdown-gender" id="dropdown-gender">
-                            <option value="">select one</option>
-                            <option value="1">male</option>
-                            <option value="2">female</option>
-                        </select>
-                    </label>
-
-                </fieldset>
-
-
-                <fieldset class="two">
-                    
-                    <label for="education-type">How did/do you learn coding?
-                        <br>
-                        <input type="radio" id="formal-education" name="education-type" value="formal education"> formal education
-                        <input type="radio" id="self-taught" name="education-type" value="self-taught"> self-taught
-                    </label>
-
-
-                    <label for="type-of-degree">For formally educated, enter your education level here:
-                        <input type="text" id="type-of-degree" placeholder="Please insert the type of your degree here.">
-                    </label>
-                    
-
-                    <label >For all, what is/are the most useful source(s) you use/have used?
-                        <br>
-                        <input type="checkbox" name="freeCodeCamp" id="freeCodeCamp" value="freeCodeCamp"> freeCodeCamp
-                        <br>
-                        <input type="checkbox" name="the-odin-project" id="the-odin-project" value="the-odin-project"> The Odin Project
-                        <br>
-                        <input type="checkbox" name="W3Schools" id="W3Schools" value="W3Schools"> W3Schools
-                        <br>
-                        <input type="checkbox" name="js-info" id="js-info" value="js-info"> JavaScript.info
-                        <br>
-                        <input type="checkbox" name="other" id="other" value="other"> Other(s):  
-                            <input class="first" type="text" id="learning-source" placeholder="Enter here">
-                            <input type="text" id="learning-source" placeholder="Enter here">
-                            <input type="text" id="learning-source" placeholder="Enter here">
-                    </label>
-                        
-                </fieldset>
-
-
-                <fieldset class="three">
-                    <label for="advice" id="advice-label">What is your advice for someone who just started learning?
-                        <textarea id="advice" name="advice" cols="30" rows="10" placeholder="Give us some advice..."></textarea>
-                    </label>
-                </fieldset>
-
-                <input type="submit" value="Submit" id="submit" name="submit">
-
-            </form>
-        
-        </div>
-
-    </body>
-
+			<input type="submit" value="Submit" id="submit" name="submit" />
+		</form>
+	</body>
 </html>
