@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Nunito", sans-serif;
+	border: 1px solid blue;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	margin: 3rem;
+	width: 90%;
+	border: 3px solid red;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+fieldset {
+	width: 90%;
+	margin: 2rem;
+	padding: 3em 6rem;
+}
+
+.one--label,
+.one--input,
+.two--label,
+.two--input,
+.two p {
+	display: block;
+	margin-bottom: 1rem;
+}
+
+.two input {
+	margin-bottom: 2rem;
+}
+
+.three p,
+.four p {
+	width: auto;
+}
+
+.three {
+	display: flex;
+	flex-flow: column;
+}
+
+.three label {
+	width: 97%;
+}
+
+#learning-source {
+	margin-left: 7em;
+	width: 20%;
+}
+
+#learning-source[class="first"] {
+	margin-left: auto;
+}
+
+textarea {
+	display: block;
+	margin: auto;
+	width: 95%;
+}
+
+*/ @media only screen and (max-width: 600px) {
+	p {
+		text-align: center;
+	}
+
+	form {
+		margin: 1rem;
+	}
+
+	fieldset {
+		border: none;
+		width: 90%;
+	}
+
+	input {
+		width: 100%;
+	}
+
+	.max-width-600px {
+		display: block;
+	}
+
+	#learning-source {
+		width: 40%;
+	}
+
+	#submit {
+		margin: 1rem;
+	}
+}
