@@ -15,21 +15,21 @@
 	</head>
 
 	<body>
-		<form action="" id="survey-form">
+		<form id="survey-form">
 			<h1 id="title">Survey Form</h1>
 
 			<p id="description">Please fill out this form with the required information</p>
 			<fieldset class="one">
-				<label for="name" id="name-label" class="one--label"> Enter your full name: </label>
-				<input type="text" id="name" class="one--input" required placeholder="Please enter your full name here" />
+				<label for="name" id="name-label"> Enter your full name: </label>
+				<input type="text" id="name" required placeholder="Please enter your full name here" />
 
-				<label for="email" id="email-label" class="one--label"> Enter your email: </label>
-				<input type="email" id="email" class="one--input" required placeholder="Please enter your email here" />
+				<label for="email" id="email-label"> Enter your email: </label>
+				<input type="email" id="email" required placeholder="Please enter your email here" />
 
-				<label for="number" id="number-label" class="one--label"> Enter your phone number: </label>
-				<input type="number" id="number" min="16" max="100" class="one--input" required placeholder="Please enter your phone number here" />
+				<label for="number" id="number-label"> Enter your phone number: </label>
+				<input type="number" id="number" min="16" max="100" required placeholder="Please enter your phone number here" />
 
-				<label class="age one--label">
+				<label class="age">
 					Please select your age:
 					<select name="dropdown" id="dropdown">
 						<option value="">select one</option>
@@ -40,7 +40,7 @@
 						<option value="5">66+</option>
 					</select>
 				</label>
-				<label class="gender one--label">
+				<label class="gender">
 					Please select your gender:
 					<select name="dropdown-gender" id="dropdown-gender">
 						<option value="">select one</option>
@@ -52,17 +52,17 @@
 
 			<fieldset class="two">
 				<p>How did/do you learn coding?</p>
-				<label class="max-width-600px" for="formal-education">
+				<label for="formal-education">
 					<input type="radio" id="formal-education" name="education-type" value="formal education" />
 					formal education
 				</label>
-				<label class="max-width-600px" for="self-taught">
+				<label for="self-taught">
 					<input type="radio" id="self-taught" name="education-type" value="self-taught" />
 					self-taught
 				</label>
 
-				<label for="type-of-degree" class="two--label"> For formally educated, enter your education level here:</label>
-				<input type="text" id="type-of-degree" class="two--input" placeholder="Please insert the type of your degree here." />
+				<label for="type-of-degree""> For formally educated, enter your education level here:</label>
+				<input type="text" id="type-of-degree" placeholder="Please insert the type of your degree here." />
 			</fieldset>
 
 			<fieldset class="three">
@@ -71,7 +71,7 @@
 				<label for="the-odin-project"><input type="checkbox" name="the-odin-project" id="the-odin-project" value="the-odin-project" /> The Odin Project </label>
 				<label for="W3Schools"><input type="checkbox" name="W3Schools" id="W3Schools" value="W3Schools" /> W3Schools </label>
 				<label for="js-info"><input type="checkbox" name="js-info" id="js-info" value="js-info" /> JavaScript.info </label>
-				<label for="other"><input type="checkbox" name="other" id="other" value="other" /> Other(s): <input class="first" type="text" id="learning-source" placeholder=""</label>
+				<label for="other"><input type="checkbox" name="other" id="other" value="other" /> Other(s): <input type="text" id="learning-source" placeholder="Enter here"</label>
 			</fieldset>
 
 			<fieldset class="four">
