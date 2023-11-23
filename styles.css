@@ -72,7 +72,7 @@ p {
 	font-size: 1.3rem;
 }
 
-input[type="text"],
+input[type="text", "email", "number"],
 select {
 	height: 1.7rem;
 }
@@ -161,28 +161,58 @@ textarea {
 
 /* @media queries */
 @media only screen and (max-width: 600px) {
-	p {
-		text-align: center;
+	body {
+		padding: 0;
 	}
 
 	form {
 		margin: 1rem;
+		font-size: 1rem;
+	}
+
+	#title {
+		margin-bottom: 0.3em;
+		font-size: 1.7rem;
+	}
+
+	#description {
+		font-size: 1.3rem;
+		text-align: center;
+		margin-bottom: 1em;
 	}
 
 	fieldset {
-		border: none;
-		width: 90%;
+		margin: 0.5em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
 	}
 
-	input {
-		width: 100%;
+	.one {
+		padding-bottom: 0.5em;
 	}
 
-	#learning-source {
-		width: 40%;
+	label,
+	p {
+		margin-bottom: 0.5em;
+		font-size: 1.2rem;
 	}
 
-	#submit {
-		margin: 1rem;
+	input,
+	textarea,
+	select {
+		font-size: 0.9em;
+	}
+
+	input[type="radio"],
+	input[type="checkbox"] {
+		background-color: #8c6848;
+	}
+
+	.one label {
+		font-weight: 600;
+	}
+
+	.one input {
+		margin-bottom: 1em;
 	}
 }
