@@ -73,7 +73,9 @@ p {
 	font-size: 1.3rem;
 }
 
-input[type="text", "email", "number"],
+input[type="text"],
+input[type="email"],
+input[type="number"],
 select {
 	height: 1.3rem;
 }
